@@ -42,6 +42,9 @@ userAnswers[0] = confirm(`Are you ready to playing for ${personData.name}?`);
 userAnswers[1] = prompt('How old are you?', '18');
 userAnswers[2] = +prompt('Huw much money you spent on this game?', '100');
 
+let userName = prompt('Как тебя зовут?', '');
+alert(`Привет, ${userName}!`);
+
 console.log(userAnswers);
 document.write(userAnswers); // вывод на страницу браузера - старый формат JS
 
